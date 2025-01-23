@@ -1,0 +1,3 @@
+C:/Users/pc/CLionProjects/Recursion&Backtracking/Tavas and SaDDas/cmake-build-debug/CMakeFiles/Tavas_and_SaDDas.dir
+C:/Users/pc/CLionProjects/Recursion&Backtracking/Tavas and SaDDas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pc/CLionProjects/Recursion&Backtracking/Tavas and SaDDas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
