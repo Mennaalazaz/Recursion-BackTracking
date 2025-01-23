@@ -13,7 +13,7 @@ ll n, m;
 vector<vector<ll>> grid;
 ll fun(ll i, ll j) {
     //Base case
-    if (i >= n || j >= m) return INT_MIN;
+    if (i >= n || j >= m) return -1e7;
 
     if (i == n - 1 && j == m - 1) return grid[i][j];
 
