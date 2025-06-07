@@ -6,6 +6,26 @@ void fastIO() {
     cin.tie(NULL);
 }
 
+//////////////////////// First Method
+ll target;
+const int MAX_DIGITS = 18;
+
+ll fun(ll n = 0, ll cnt4 = 0, ll cnt7 = 0, int depth = 0) {
+    if (depth > MAX_DIGITS) return LLONG_MAX; // Add a limit on the depth (i.e., the number of digits). Since long long can handle up to 18 digits safely
+
+    if (n >= target && cnt4 == cnt7)
+        return n;
+
+    ll ch1 = fun(n * 10 + 4, cnt4 + 1, cnt7, depth + 1);
+    ll ch2 = fun(n * 10 + 7, cnt4, cnt7 + 1, depth + 1);
+
+    return min(ch1, ch2);
+}
+
+
+
+/////////////////// Second Method
+
 vector<long long> v;
 
 // this is responsible to fill the vector with superLuckyNumbers with the same length
